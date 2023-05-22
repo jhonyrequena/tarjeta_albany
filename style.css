@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Pacifico&display=swap');
+
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-image: url(./albany_fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.animate__animated.animate__flipInX{
+    --animate-duration: 3s;
+}
+
+.ciervoBebe{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 50%;
+    margin-bottom: 120px;
+    margin-left: -35px;
+}
+
+@keyframes entrada-izquierda {
+    from {
+      opacity: 0;
+      transform: translateX(-90%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  #miImagen {
+    animation: entrada-izquierda 1.5s ease-in-out;
+  }
+
+h1 {
+    z-index: 100;
+    font-size: 4em;
+    color: rgb(127 102 72);
+    font-family: Pacifico;
+    margin-top: 10px;
+}
+
+h2{
+    z-index: 100;
+    font-size: 1.8em;
+    font-family: Luckiest Guy;
+    font-weight: lighter;
+    color: rgb(78, 130, 117);
+    margin-top: 48px;
+}
+
+img {
+    margin-top: 20px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 1.8em;
+    font-style: italic;
+    color:rgb(255, 255, 255);
+}
+
+.details {
+    margin: 10px 15px 0 0;
+    text-align: right;
+}
+
+.direccion{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.8em;
+    font-style: italic;
+    color:rgb(255, 255, 255);
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.whatsapp-button {
+    background-color: #10c854;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.whatsapp-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
