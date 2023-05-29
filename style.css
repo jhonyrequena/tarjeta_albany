@@ -1,13 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&family=Ysabeau:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;500&family=Lobster&display=swap');
 
-body{
+/* body{
     background-color: rgb(127 102 72);
-    background-image: url(./albany_fondo.png);
+    /* background-image: url(./albany_fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-}
+    background-position: center center; */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .full-page-bg::before {
+    content: '';
+    background-image: url('./Albany_prueba.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
 
 .animate__animated.animate__flipInX{
     --animate-duration: 3s;
@@ -129,8 +146,8 @@ p{
 
 @media all and (max-width: 767px){
     .ciervoBebe{
-        width: 45%;
-        margin-bottom: 45%;
-        margin-left: 1px;
+        width: 50%;
+        margin-bottom: 220px;
+        margin-right: 600px;
     }
 }
