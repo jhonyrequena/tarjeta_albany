@@ -38,34 +38,12 @@ html, body {
     --animate-duration: 4s;
 }
 
-.ciervoBebe{
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
-    width: 25%;
-}
-
-@keyframes entrada-izquierda {
-    from {
-      opacity: 0;
-      transform: translateX(-90%);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  #miImagen {
-    animation: entrada-izquierda 1.5s ease-in-out;
-  }
-
 h1 {
     z-index: 100;
     font-size: 4em;
     color: rgb(127 102 72);
     font-family: Lobster;
-    text-shadow: -3px -3px 1px #725A26;
+    text-shadow: -2px -2px 1px #ffffff;
     margin: 10px 15px 0 0;
     text-align: right;
 }
@@ -75,7 +53,7 @@ h2{
     font: 2em bold italic;
     font-family: Ysabeau;
     color: rgb(48, 116, 99);
-    text-shadow: 1px 1px 1px #307463;
+    text-shadow: 1.5px 1px 1px rgb(209, 203, 203);
     margin: 10px 15px 0 10px;
     text-align: right;
     border-bottom: 8px groove #ffffff;
@@ -86,11 +64,7 @@ h3{
     font-family: Permanent Marker;
     color: rgb(48, 116, 99);
     margin-top: 40px;
-    text-shadow: 1.5px 1px 1px black;
-}
-
-img {
-    margin-top: 20px;
+    text-shadow: 1.5px 1px 1px rgb(209, 203, 203);
 }
 
 p{
@@ -107,7 +81,7 @@ p{
 
 .direccion{
     text-decoration: none;
-    font: 1.6em bold italic;
+    font: 1.4em bold italic;
     font-family: Permanent Marker;
     color:rgb(255, 255, 255);
     text-shadow: 1.5px 1px 1px black;
@@ -140,14 +114,9 @@ p{
     text-decoration: none;
 }
 
-.whatsapp-button:hover {
-    background-color: #128C7E;
-}
-
 @media all and (max-width: 767px){
-    .ciervoBebe{
-        width: 50%;
-        margin-bottom: 220px;
-        margin-right: 600px;
+    html, body{
+        width: 500px;
+        height: 700px;
     }
 }
