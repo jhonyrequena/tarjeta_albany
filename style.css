@@ -12,7 +12,7 @@ body{
     height: auto;
     background-color: rgb(127, 102, 72);
     background-image: url(./Albany_prueba.png);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
   
