@@ -114,19 +114,22 @@ p{
       }
 
     h1{
-        margin-top: 0;
-        font-size: 3.5em;
+        margin-top: 15px;
+        font-size: 4em;
     }
 
     h2{
         font-size: 2em;
+        margin-top: 25px;
     }
 
     h3{
-        font-size: 1.5em;
+        font-size: 1.8em;
+        margin-top: 40px;
     }
 
     p, .direccion{
-        font-size: 1.2em;
+        font-size: 1.4em;
+        margin-top: 40px;
     }    
 }
