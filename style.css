@@ -10,9 +10,9 @@
 body{
     width: 100%;
     height: auto;
-    background-color: rgb(127, 102, 72);
-    background-image: url(./Albany_prueba.png);
-    background-size: 100%;
+    background-color: rgba(186, 162, 133, 0.638);
+    background-image: url(./albany-def.png);
+    background-size: cover;
     background-repeat: no-repeat;
   }
   
@@ -72,18 +72,6 @@ p{
     text-align: right;
 }
 
-/* .arriba {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-
-.arriba2 {
-    position: absolute;
-    top: 80px;
-    right: 10px;
-} */
-
 .direccion{
     text-decoration: none;
     font: 1.4em bold italic;
@@ -124,7 +112,6 @@ p{
         width: 100%;
         height: auto;
         background-size: cover;
-        background-position: center center;
       }
 
     h1{
@@ -142,5 +129,5 @@ p{
 
     p, .direccion{
         font-size: 1.2em;
-    }
+    }    
 }
