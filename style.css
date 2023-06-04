@@ -113,6 +113,10 @@ p{
         background-size: cover;
       }
 
+    .details {
+        position: center right;
+    }
+
     h1{
         margin-top: 15px;
         font-size: 4em;
@@ -120,16 +124,16 @@ p{
 
     h2{
         font-size: 2em;
-        margin-top: 25px;
+        margin-top: 40px;
     }
 
     h3{
         font-size: 1.8em;
-        margin-top: 40px;
+        margin-top: 80px;
     }
 
     p, .direccion{
         font-size: 1.4em;
-        margin-top: 40px;
+        margin-top: 80px;
     }    
 }
