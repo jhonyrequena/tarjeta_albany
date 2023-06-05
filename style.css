@@ -114,7 +114,7 @@ p{
       }
 
     .details {
-        position: center right;
+        line-height: 0.2em;
     }
 
     h1{
@@ -124,16 +124,19 @@ p{
 
     h2{
         font-size: 2.2em;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     h3{
         font-size: 1.6em;
-        margin-top: 50px;
     }
 
     p, .direccion{
         font-size: 1.2em;
-        margin-top: 50px;
     }    
+
+    h3, p, .direccion {
+        margin-top: 50px;
+    }
+
 }
