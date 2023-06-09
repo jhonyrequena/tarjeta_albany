@@ -106,7 +106,7 @@ p{
     text-decoration: none;
 }
 
-@media all and (max-width: 320px){
+@media(max-width: 480px){
 
     body{
         width: 100%;
@@ -116,6 +116,10 @@ p{
     .details {
         line-height: 0.7em;
         margin-top: 80px;
+    }
+
+    .marginDetails{
+        margin-top: 10px;
     }
 
     h1{
