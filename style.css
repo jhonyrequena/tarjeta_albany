@@ -84,7 +84,7 @@ p{
     border-radius: 5px;
     border: none;
     padding: 3px;
-    background-color: rgba(238, 218, 160, 0.468);
+    background-color: rgba(48, 116, 99, 0.588);
 }
 
 .boton{
@@ -94,22 +94,22 @@ p{
 }
 
 .whatsapp-button {
-    background-color: rgba(225, 222, 222, 0.642);
+    background-color: rgb(48, 116, 99);
     font-family: Ysabeau;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     margin-top: 30px;
     padding: 5px;
-    border: none;
+    border-color:rgb(4, 35, 9);
+    border-style: double;
     border-radius: 5px;
-    cursor: pointer;
 }
 .whatsapp-button.animate__animated.animate__zoomInUp{
     --animate-duration: 5s;
 }
 
 .whatsapp-button a {
-    color: rgb(13, 168, 78);
+    color: rgb(238, 218, 160);
     text-decoration: none;
 }
 
