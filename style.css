@@ -80,6 +80,13 @@ p{
     text-shadow: 1.5px 1px 1px black;
 }
 
+.ubicacion {
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    background-color: rgba(238, 218, 160, 0.468);
+}
+
 .boton{
     display: flex;
     justify-content: center;
@@ -87,9 +94,9 @@ p{
 }
 
 .whatsapp-button {
-    background-color: rgb(48, 116, 99);
+    background-color: rgba(225, 222, 222, 0.642);
     font-family: Ysabeau;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     margin-top: 30px;
     padding: 5px;
@@ -102,7 +109,7 @@ p{
 }
 
 .whatsapp-button a {
-    color: rgb(238, 218, 160);
+    color: rgb(13, 168, 78);
     text-decoration: none;
 }
 
@@ -135,7 +142,7 @@ p{
 
     h3{
         font-size: 1.6em;
-        margin-top: 20px;
+        margin-top: 15px;
         margin-bottom: 20px;
     }
 
